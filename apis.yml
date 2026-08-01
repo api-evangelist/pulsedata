@@ -1,7 +1,25 @@
 aid: pulsedata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulsedata.png
 name: pulseData
-description: pulseData is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PulseData, Inc. is a healthcare artificial-intelligence company that applies
+  machine learning and predictive analytics to chronic disease management, with a focus on
+  chronic kidney disease. Its platform helps payers, providers, ACOs, and value-based care
+  organizations identify at-risk patient populations, predict disease progression, and act
+  by directing patients to targeted interventions and care programs. Named customers include
+  Quest Diagnostics, US Renal Care, Vytalize, and HealthEdge. The company is SOC 2 Type II
+  certified and was surfaced as a portfolio company of Bloomberg Beta. No public API,
+  developer portal, SDKs, or machine-readable documentation were found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/pulsedata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Predictive Analytics
+- Chronic Disease Management
+- Value-Based Care
+- Health Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pulsedata-domain-security.yml
 - type: Website
   url: https://pulsedata.io/
+- type: About
+  url: https://pulsedata.io/about-us
+- type: Support
+  url: https://pulsedata.io/contact-us
+- type: PrivacyPolicy
+  url: https://pulsedata.io/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
